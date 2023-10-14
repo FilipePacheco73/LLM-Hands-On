@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>MLLM-Hands-On</h1>
+  <h1>LLM-Hands-On</h1>
 </div>
 
 ## Table of Contents
@@ -11,7 +11,7 @@
 
 ## Summary
 
-Welcome to the MLLM-Hands-On GitHub repository dedicated to studying and practicing with Large Language Models (LLM). This repository contains various experiments and trials that I have conducted. For a detailed explanation about the code and the underlying technology and science, you can refer to my Medium blog at the following link:
+Welcome to the my LLM-Hands-On GitHub repository dedicated to studying and practicing with Large Language Models (LLM). This repository contains various experiments and trials that I have conducted. For a detailed explanation about the code and the underlying technology and science, you can refer to my Medium blog at the following link:
 
 https://medium.com/@filipespacheco
 
