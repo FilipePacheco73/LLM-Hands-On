@@ -119,8 +119,8 @@ class SearchContent:
 model = LoadLLM("all-MiniLM-L6-v2").main()
 df_raw = LoadFile('problem_solution.xlsx').main()
 df_index = DataTreatment(df_raw).main()
-faiss_content_embedding, vector_library = VectorLibraryCreation(model, df_index, "vector_library/vector_library").main()
+faiss_content_embedding, vector_library = VectorLibraryCreation(model, df_index, "faiss-vector-library/vector_library").main()
 
-search_content = SearchContent(df_index, model, "vector_library/vector_library")
+search_content = SearchContent(df_index, model, "faiss-vector-library/vector_library")
 result = search_content.search('Battery')
 print(result)
