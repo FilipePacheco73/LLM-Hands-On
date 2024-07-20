@@ -68,13 +68,21 @@ This repository has the following structure:
 
 LLM-Hands-On/
 │
+
 ├── LICENSE
+
 ├── README.md
+
 ├── Vector-Library/
+
 │ ├── faiss-vector-library/
+
 │ │ └── vector_library.faiss
+
 │ ├── problem_solution.xlsx
+
 │ ├── requirements.txt
+
 │ └── vector_library_creation.py
 
 
